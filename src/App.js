@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Always Shaik Gandu in feature
+          Alway's Shaik Gandu in feature
         </a>
       </header>
     </div>
