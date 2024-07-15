@@ -1,13 +1,12 @@
 language: node_js
 node_js:
-  - "16"
+  - "alpine"
 
-sudo: required
-servides:
+services:
   - docker
 
 before_install:
-  - docker build -t pete-RK/docker-react -f Dockerfile.dev .
+  - docker build -t pete-rk/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true pete-RK/docker-react npm run test
+  - docker run pete-rk/docker-react npm run test -- --coverage
