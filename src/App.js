@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Sohail Shaik
+          Always a gandu
         </a>
       </header>
     </div>
