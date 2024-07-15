@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Mumaith Sohail Shaik
+          Sohail Shaik
         </a>
       </header>
     </div>
