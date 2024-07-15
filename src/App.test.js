@@ -6,6 +6,6 @@ test("renders learn react link", () => {
   act(() => {
     render(<App />);
   });
-  const linkElement = screen.getByText(/Sohail Shaik/i);
+  const linkElement = screen.getByText(/Always Shaik Gandu/i);
   expect(linkElement).toBeInTheDocument();
 });
